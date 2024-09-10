@@ -1,0 +1,116 @@
+body{
+margin:0;
+font-size: 18px;
+background-color:rgb(254, 253, 253);
+}
+*{
+    font-family: monospace;
+}
+
+ header{
+    background-color: blue;
+    height:100vh;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+section{
+    height:100vh;
+    border:1px solid black;
+    border-radius: 20px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    
+ 
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color:rgb(37, 26, 250);
+    font-size:40px;
+}
+img{
+    height:200px;
+}
+header h1{
+    color:#ffffff;
+
+}
+main{
+    padding:20px;
+}
+
+.button{
+    height:40px;
+    width:140px;
+    background-color: white;
+    color:black;
+    margin:15px;
+    border-radius: 12px;
+    border:none;
+    cursor: pointer;
+}
+form div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button:hover{
+    background-color:darkblue;
+    color: white;
+   
+}
+.buttons{
+    background-color: blue;
+    color:white;
+    height: 30px;
+    width:100px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+.buttons:hover{
+background-color: rgb(18, 18, 180);
+}
+input{
+    height: 20px;
+    border-radius: 7px;
+    border:1px solid lightgrey
+   
+}
+.textarea{
+    height: 20px;
+    border-radius: 7px;
+    border: 1px solid lightgrey;
+}
+footer{
+    background-color: black;
+    height: 124px;
+    color:lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.fixedbutton{
+    position: fixed;
+    bottom:40px;
+    right: 10px;
+    height:40px;
+    border-radius: 100px;
+    background-color: blue;
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+.fixedbutton:hover{
+    background-color:rgb(49, 15, 164);
+}
